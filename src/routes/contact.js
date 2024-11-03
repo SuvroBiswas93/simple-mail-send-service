@@ -9,7 +9,7 @@ router.post("/contact", async (req, res) => {
       name,
       email,
       message,
-      subject = "Portfolio Contact: New message from portfolio",
+      subject = "New message from portfolio",
     } = req.body;
 
     // Validation
